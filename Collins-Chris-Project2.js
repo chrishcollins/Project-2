@@ -74,9 +74,16 @@ var collegePick = function(college) {
 var finalChoice = collegePick("I will finally make a choice.");	
 
 //numbers
+for (tuition = 60000; tuition >0; tuition+1000) {
+	console.log(tuition + "isn't too bad for tuition.");
+	return tuition;
+};
+
+console.log("I believe I will be paying " + currentCollege "for a long time!");
 
 
 
 console.log("I didn't like the coursework at " + firstCollege.);
 console.log(currentCollege + "has been where I wanted to go all along.");
+
 
